@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FormSolution</title>
+</head>
+<body>
+	<h1>Register</h1>
+
+<form>
+<div>
+		<label for="firstname">First Name:</label>
+		<input name="firstname" id="firstname" type="text" placeholder="John" required>
+
+		<label for="lastname">Last Name:</label>
+		<input name="lastname" id="lastname" type="text" placeholder="Smith" required>
+</div>	
+<div>
+		<label for="male">Male:</label>
+		<input name="genderChoice" id="male" type="radio" value="male">
+
+		<label for="female">Female:</label>
+		<input type="radio" name="genderChoice" id="female" value="female">
+
+		<label for="other">Other:</label>
+		<input type="radio" name="genderChoice" id="other" value="other">
+
+</div>
+<div>
+		<label for="email">Email:</label>
+		<input type="email" name="email" id="signin" placeholder="your email" required>
+
+		<label for="password">Password:
+		<input type="password" name="password" id="signin" pattern=".{5,10}" required title="Password must be between 5 to 10 characters">
+		</label>
+</div>		
+<div>
+		<label for="birthday">Birthday:</label>
+		<select name="Month">
+			<option>Month</option>
+			<option>January</option>
+		</select>
+		<select name="Day">
+			<option>Day</option>
+			<option>1</option>
+		</select>
+		<select name="Year">
+			<option>Year</option>
+			<option>1990</option>
+		</select>
+</div>
+
+<div>
+		<label for="terms">I agree to the terms and conditions
+		<input type="radio" name="terms" id="terms">
+		</label>
+</div>	
+
+	<input type="submit">
+</form>
+</body>
+</html>

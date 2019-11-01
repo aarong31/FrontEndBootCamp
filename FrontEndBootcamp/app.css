@@ -1,0 +1,19 @@
+h1{
+	color: rgba(255,255,255,.5);
+	
+
+	border: 8px solid pink; 
+}
+li{
+	color:#000000;
+}
+h4{
+	background:	rgb(200,150,90);
+}
+
+body
+{
+	background: url(https://www.highreshdwallpapers.com/wp-content/uploads/2014/05/Abstract-Burst-of-Colour.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
