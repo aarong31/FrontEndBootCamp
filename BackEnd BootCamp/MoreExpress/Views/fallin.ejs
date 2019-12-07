@@ -1,0 +1,16 @@
+<%- include ("partials/header") %>
+<h1>
+	Fallin for: <%= thingVar %>
+</h1>
+
+<% if(thingVar.toLowerCase() === "bacon"){ %>
+	<p>
+		GREAT CHOICE!
+</p>
+<%} else { %>
+	<p>
+		BAD CHOICE!!
+</p>
+<% } %>
+
+<%- include ("partials/footer") %>
